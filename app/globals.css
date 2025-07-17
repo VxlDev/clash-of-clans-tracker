@@ -1,12 +1,2 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
-@theme {
-  --text-shadow-title:
-    2px 2px #000, -2px -2px #000, 2px -2px #000, -2px 2px #000;
-}
-
-@layer components {
-  .title {
-    @apply text-shadow-title text-orange-400;
-  }
-}
